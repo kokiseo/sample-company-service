@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST2-Service</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <img src="logo.png" alt="logo" class="h-logo">
+                <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="h-button"><span></span></label>
+                    <nav id="sp-nav" >
+                        <ul>
+                            <li><a href="../home/index.html">
+                                <div class="sp-li-top">ホーム</div>
+                                <div class="sp-li-end">HOME</div>
+                            </a></li>
+                            <li><a href="../Company/index.html">
+                                <div class="sp-li-top">会社概要</div>
+                                <div class="sp-li-end">COMPANY</div>
+                            </a></li>
+                            <li><a href="./index.html">
+                                <div class="sp-li-top">サービス</div>
+                                <div class="sp-li-end">SERVICE</div>
+                            </a></li>
+                            <li><a href="../Recruit/index.html">
+                                <div class="sp-li-top">採用情報</div>
+                                <div class="sp-li-end">RECRUIT</div>
+                            </a></li>
+                            <li><a href="../Link/index.html">
+                                <div class="sp-li-top">リンク</div>
+                                <div class="sp-li-end">LINK</div>
+                            </a></li>
+                            <li><a href="../Contact/index.html">
+                                <div class="sp-li-top">お問い合わせ</div>
+                                <div class="sp-li-end">CONTACT</div>
+                            </a></li>
+                        </ul>
+                    </nav>
+            </h1>
+            
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="../home/index.html">
+                    <div class="li-top">ホーム</div>
+                    <div class="li-end">HOME</div>
+                </a></li>
+                <li><a href="../Company/index.html">
+                    <div class="li-top">会社概要</div>
+                    <div class="li-end">COMPANY</div>
+                </a></li>
+                <li id="active"><a href="./index.html" >
+                    <div class="li-top">サービス</div>
+                    <div class="li-end">SERVICE</div>
+                </a></li>
+                <li><a href="../Recruit/index.html">
+                    <div class="li-top">採用情報</div>
+                    <div class="li-end">RECRUIT</div>
+                </a></li>
+                <li><a href="../Link/index.html">
+                    <div class="li-top">リンク</div>
+                    <div class="li-end">LINK</div>
+                </a></li>
+                <li><a href="../Contact/index.html">
+                    <div class="li-top">お問い合わせ</div>
+                    <div class="li-end">CONTACT</div>
+                </a></li>
+            </ul>
+        </nav>
+    
+        
+
+        <div class="contents">
+            <main>
+                <h2>サービスのご案内</h2>
+                <p class="m-content">
+                    リンク設定がされている場合、画像右上に「→」マークが出ます。設定はcssフォルダのstyle.cssの<br>
+                    /*ボックスにリンク指定がされた場合に出る「→」マーク*/
+                    ブロックになります。
+                </p>
+                <div class="card"><a href="#">
+                    <div class="c-content">
+                        <img src="sample1.jpg" alt="sample" class="c-img">
+                        <h3>Sample Title</h3>
+                        <p class="c-p">
+                            ここに説明など入れて下さい。
+                        </p>
+                    </div>
+                </a></div>
+
+                <div class="card"><a href="#">
+                    <div class="c-content">
+                        <img src="sample1.jpg" alt="sample" class="c-img">
+                        <h3>Sample Title</h3>
+                        <p class="c-p">
+                            ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。ここに説明など入れて下さい。
+                        </p>
+                    </div>  
+                </a></div>
+
+                <div class="card"><a href="#">
+                    <div class="c-content">
+                        <h3>Sample Title</h3>
+                        <p class="c-p">
+                            ここに説明など入れて下さい。
+                        </p>
+                    </div>
+                </a></div>
+                <div class="card c-last">
+                    <div class="c-content">
+                        <h3>Sample Title</h3>
+                        <p class="c-p">
+                            リンク設定なしのサンプルです。
+                        </p>
+                    </div>
+                    
+                </div>
+            </main>
+            
+            <aside class="side">
+                <div class="frame">
+                    <div class="s-menu frame-inside">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li><a href="#">メニュー</a></li>
+                            <li><a href="#">メニュー</a></li>
+                            <li><a href="#">メニュー</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="s-menu frame-out">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#">メニュー</a></li>
+                        <li><a href="#">メニュー</a></li>
+                        <li><a href="#">メニュー</a></li>
+                    </ul>
+                </div>
+
+                <div class="frame">
+                    <div class="s-menu frame-inside">
+                        <h4>製品情報</h4>
+                        <ul>
+                            <li><a href="#">
+                                <img src="sample1.jpg" alt="" class="f-img">
+                                <p class="f-l-top">製品情報</p>
+                                <p class="f-l-end">簡単な説明をここに入れます。</p>
+                            </a></li>
+                            <li><a href="#">
+                                <img src="sample1.jpg" alt="" class="f-img">
+                                <p class="f-l-top">製品情報</p>
+                                <p class="f-l-end">簡単な説明をここに入れます。</p>
+                            </a></li>
+                            <li><a href="#">
+                                <img src="sample1.jpg" alt="" class="f-img">
+                                <p class="f-l-top">製品情報</p>
+                                <p class="f-l-end">簡単な説明をここに入れます。</p>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="s-menu frame-out">
+                    <h4>製品情報</h4>
+                    <ul>
+                        <li><a href="#">
+                            <img src="sample1.jpg" alt="" class="f-img">
+                            <p class="f-l-top">製品情報</p>
+                            <p class="f-l-end">簡単な説明をここに入れます。</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="sample1.jpg" alt="" class="f-img">
+                            <p class="f-l-top">製品情報</p>
+                            <p class="f-l-end">簡単な説明をここに入れます。</p>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="sample1.jpg" alt="" class="f-img">
+                            <p class="f-l-top">製品情報</p>
+                            <p class="f-l-end">簡単な説明をここに入れます。</p>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="frame-inside">
+                        <h4>運営</h4>
+                        <div class="company-content">
+                            <h5>株式会社SAMPLE COMPANY</h5>
+                            <p>東京都XX区XXXXビル3F <br>
+                                TEL:03-0000-0000 <br>
+                                (AM9:00〜PM5:00 土日祝休み)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <p>
+                Copyright© <a href="#">SAMPLE COMPANY</a> All Rights Reserved. <br>
+                <a href="#">《Web Design:Template-Party》</a> 
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        $(function(){
+            var pagetop = $('#page_top');
+            // ボタン非表示
+            pagetop.hide();
+            // 100px スクロールしたらボタン表示
+            $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                    pagetop.fadeIn();
+            } else {
+                    pagetop.fadeOut();
+            }
+            });
+            pagetop.click(function () {
+            $('body, html').animate({ scrollTop: 0 }, 500);
+            return false;
+            });
+        });
+    </script>
+
+    <div id="page_top"><a href="#">↑</a></div>
+    
+</body>
+</html>
